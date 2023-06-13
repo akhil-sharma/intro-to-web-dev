@@ -65,3 +65,35 @@ img {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.tableArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rows {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 100%;
+    table-layout: fixed;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.selection {
+    width: 70%;
+}
+
+.selection > label {
+    font-weight: bolder;
+    font-style: oblique;
+}
